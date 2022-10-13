@@ -1,0 +1,41 @@
+:root {
+  --ion-toolbar-background: var(--ion-color-primary);
+  --ion-toolbar-color: var(--ion-color-secondary-contrast);
+  --ion-tab-bar-background: var(--ion-color-primary);
+  --ion-tab-bar-color-selected: var(--ion-color-tertiary);
+  --ion-tab-bar-color: var(--ion-color-dark);
+}
+
+/*
+ion-back-button {
+  --color: var(--ion-color-primary-dark);
+}
+*/
+
+.image-preview {
+  width: 150px;
+  height: 150px;
+  max-width: 100%;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.image-preview h3 {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.image-preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.memory-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
